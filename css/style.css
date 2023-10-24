@@ -9,13 +9,14 @@ header{
     background-color: orange;
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: 60px;
 }
 
 /* MAIN CONTAINER PER CRAVATTA */
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    height: auto;
 }
 
 /* BORDER DA TOGLIEREEEEE */
@@ -37,9 +38,21 @@ header{
 .column{
     width: calc(100% / 3);
     height: 924px;
-    background-color: blue;
 }
 
+/* css img in colonne */
+.img-size{
+    width: 100%;
+}
+
+/* css prezzi in main */
+.price{
+    color: red;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
 /* CSS FOOTER */
 footer{
     background-color: black;
