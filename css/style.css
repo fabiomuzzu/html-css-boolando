@@ -8,8 +8,26 @@
 header{
     background-color: orange;
     position: fixed;
+    top: 0px;
     width: 100%;
     height: 60px;
+}
+
+.header-block{
+    display: block;
+    height: 60px;
+}
+
+#logo{
+    height: 30px;
+}
+
+.header-margin{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    color: #fff;
 }
 
 /* MAIN CONTAINER PER CRAVATTA */
@@ -19,9 +37,9 @@ header{
     height: auto;
 }
 
-/* BORDER DA TOGLIEREEEEE */
-.border{
-    border: 1px dotted black;
+/* MAIN */
+main{
+    margin-top: 100px;
 }
 
 /* css flex della row, per fare righe+colonne */
@@ -35,9 +53,13 @@ header{
     flex-direction: row;
 }
 
+.gap{
+    gap: 20px;
+}
+
 .column{
     width: calc(100% / 3);
-    height: 924px;
+    margin-bottom: 50px;
 }
 
 /* css img in colonne */
