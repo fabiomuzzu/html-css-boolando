@@ -61,7 +61,7 @@ main{
     margin-top: 100px;
 }
 
-/* css flex della row, per fare righe+colonne */
+/* css flex della row in main*/
 .row{
     display: flex;
     flex-direction: row;
@@ -81,7 +81,7 @@ main{
     margin-bottom: 50px;
 }
 
-/* css img in colonne */
+/* css img main in colonne */
 .img-size{
     width: 100%;
 }
@@ -94,6 +94,7 @@ main{
 .old-price{
     text-decoration: line-through;
 }
+
 /* CSS FOOTER */
 footer{
     background-color: black;
