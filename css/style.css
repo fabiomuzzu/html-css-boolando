@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS HEADER */
+header{
+    background-color: orange;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+
+/* MAIN CONTAINER PER CRAVATTA */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* BORDER DA TOGLIEREEEEE */
+.border{
+    border: 1px dotted black;
+}
+
+/* css flex della row, per fare righe+colonne */
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    width: calc(100% / 3);
+    height: 924px;
+    background-color: blue;
+}
+
+/* CSS FOOTER */
+footer{
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    height: 80px;
+}
