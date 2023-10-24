@@ -137,6 +137,24 @@ main{
     color: #fff;
     padding: 5px 10px;
 }
+
+/* css hoover */
+.show{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+.column:hover .hidden{
+    display: block;
+}
+
+.column:hover .show{
+    display: none;
+}
+
 /* CSS FOOTER */
 footer{
     background-color: black;
